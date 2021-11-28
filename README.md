@@ -1,9 +1,12 @@
 # C++ Window Program
-This simple C++ program uses the Windows32 API.
+This is a simple C++ program that uses the Win32 API.
 
-To run the program, make sure you have gcc/g++ installed. You can then run
+# Building
+MinGW:
 ```
-g++ -o main main.cpp
+g++ main.cpp -o main.exe
 ```
-
-To run the program, use `./main` or double click the `.exe` file
+MSVC:
+```
+cl main.cpp
+```
